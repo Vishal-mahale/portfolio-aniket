@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f993d91820.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/Logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Job Intrest</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi,I'm <span>Aniket</span> <br> From Pune</h1>
+        </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Self-motivated, highly passionate, and hardworking fresher
+                        looking for an opportunity to work in a dynamic organization that
+                        will contribute to my professional and personal growth while I
+                        contribute to the growth of the company as well as engage in
+                        opportunitiesto further the company’s goals.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML and CSS</span><br>Designing Webpages</li>
+                            <li><span>JAVASCRIPT</span><br>Add Logic to Webpages</li>
+                            <li><span>JAVA</span><br>Build a web Application</li>
+                            <li><span>HIBERNATE /JDBC</span><br>Connect and Create Databse</li>
+                            <li><span>JSP and SERVLET</span><br>Build Webpages and Handale Web Request</li>
+                            <li><span>SPRINGBOOT</span><br>Creating StandAlone Application</li>
+                            <li><span>MYSQL</span><br>Store The Data</li>
+                            <li><span>C PROGRAMING</span><br>Structured programming Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Master's of Computer Science</span><br>Modern College Of Art Science And Commerce <br>2023</li>
+                            <li><span>Bachelor of computer science</span><br>Modern College Of Art Science And Commerce<br>2021</li>
+                            <li><span>Higher secondary school</span><br>Na.Dho. Mahnor Hight School<br>2017</li>
+                            <li><span>High school</span><br>S.B.Hight School<br>2015</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certificates">
+                        <ul>
+                            <li><span>JAVA Full Stack Course</span><br> The Java By Kiran Acadamy </li>
+                            <li><span>JAVA Programming Course</span><br>Greate Learning</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Services  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Intrested Job Roll</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Developer</h2>
+                <p>Having a knowledge of a web design skills like HTML CSS .</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Java Developer</h2>
+                <p>Having a knowledge of a Core Java and a concepts of a Advanced Java like JSP , Servlet , Hibernate , JDBC , SpringBoot</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Having a knowledge of a web design skills like HTML CSS and A backend Skils like java and also have knowledge of Database of MYSQL And a Scripting Language of JAVASCRIPT.</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio      -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Electricity.jpg">
+                <div class="layer">
+                    <h3>Electricity Billing System</h3>
+                    <p>This is a project Created By Myself for the college submission .This
+                        project was created by using java and MySQL . Its project thatsave
+                        the details of the customer and details of the electricity bill which
+                        was submitted by various customers . It also have authentication
+                        of login as user-id and password also a simple and efficient UI
+                        which makesits user friendly</p>
+                    <a href="https://github.com/aniket2018/Electricity-Billing-System/tree/master"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dantal.jpg">
+                <div class="layer">
+                    <h3> Dental Care System</h3>
+                    <p>This project is developed to provide dentalservicesto users. For
+                        frontend html, css, jsp, js is used. For Backend Java, Spring Boot
+                        frameworksis used. And for database Sql, hibernate frameworks
+                        is used. Thisis a self-made Project. This website is user friendly.</p>
+                    <a href="https://github.com/aniket2018/Dental-care-services/tree/master"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Canteen Managment System</h3>
+                    <p>This project is developed to provide Canteen services.in this project For
+                        frontend html, css, jsp, js is used. For Backend Java, Spring Boot
+                        frameworksis used. And for database Sql, hibernate frameworks
+                        is used. Thisis a self-made Project. This website is user friendly.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see More</a>
+    </div>
+</div>
+<!--  Contact Information-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>   aniketdevidas2018@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>   7066447970</p>
+               <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aniket-devidas-58545a216/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/aniket2018"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <a href="images/Aniket_Devidas_Fresher_java.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Yor Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Aniket</p>
+    </div>
+</div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        
+function opentab(tabname) {
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
